@@ -1,3 +1,6 @@
+
+#Code by https://github.com/thuongtruong1009
+
 		.data
 prompt: 	.asciiz "Input interger: "
 output:		.asciiz "Hexadecimal: "
@@ -5,7 +8,6 @@ error:		.asciiz "Input must be in range (0-15)\n"
 annotation:	.asciiz "0x"
 		.text
 		.globl main
-
 main:	
 		la $a0, prompt
 		li $v0, 4
@@ -63,6 +65,3 @@ printError:
 		li $v0, 4		
 		syscall	
 		jr $ra
-
-
-		
