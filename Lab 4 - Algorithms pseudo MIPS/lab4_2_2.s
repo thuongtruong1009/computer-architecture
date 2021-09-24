@@ -1,9 +1,11 @@
-.data
+
+#Code by https://github.com/thuongtruong1009
+
+	.data
 input: .asciiz "Enter n terms: "
 comma: .asciiz ", "
-		.text
-		.globl main
-
+	.text
+	.globl main
 main:
 
 	# print input
@@ -39,7 +41,6 @@ print_output:
 	move $a0, $t1
 	syscall
  
-  
 	li $v0, 4
 	la $a0, comma
 	syscall
@@ -75,9 +76,5 @@ early_return:
     add $t1, $t1, $t4
     j recursive
       
- fib_exit:
-jr $31
-
-
-
-		
+fib_exit:
+	jr $31
