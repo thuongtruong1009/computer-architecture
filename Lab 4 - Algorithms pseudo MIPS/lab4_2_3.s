@@ -1,10 +1,12 @@
-.data
+
+#Code by https://github.com/thuongtruong1009
+
+	.data
 input: .asciiz "Input n terms: "
 output:
 comma: .asciiz ", "
-		.text
-		.globl main
-
+	.text
+	.globl main
 main:
 
 	# print input
@@ -75,8 +77,7 @@ return_1:
 	syscall
 	li $v0, 10
 	syscall
-	
-	
+		
 early_return:
     
     add $t1, $t1, $t4
@@ -84,7 +85,3 @@ early_return:
       
  fib_exit:
 jr $31
-
-
-
-		
