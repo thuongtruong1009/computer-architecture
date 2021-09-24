@@ -1,9 +1,11 @@
-.data
+
+#Code by https://github.com/thuongtruong1009
+
+	.data
 description: .asciiz "100 first number is:\n"
 comma: .asciiz ", "
-		.text
-		.globl main
-
+	.text
+	.globl main
 main:
 
 	# print description
@@ -74,7 +76,3 @@ early_return:
       
  fib_exit:
 jr $31
-
-
-
-		
