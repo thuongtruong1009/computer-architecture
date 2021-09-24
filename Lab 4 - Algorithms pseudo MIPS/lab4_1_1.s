@@ -1,12 +1,13 @@
-.data
 
+#Code by https://github.com/thuongtruong1009
+
+		.data
 prompt: 	.asciiz "please enter an interger : \n"
 result:		.asciiz "hexadecimal: "
 error:		.asciiz "the input has to be the number between 0 and 15\n"
 hexSymbol:	.asciiz "0x"
 		.text
 		.globl main
-
 main:		
 		la $a0, prompt
 		li $v0, 4
