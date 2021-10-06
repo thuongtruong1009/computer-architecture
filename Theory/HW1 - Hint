@@ -1,0 +1,39 @@
+Problem 1.
+  CPI: Use weighted average CPI formula in slide 1
+  IPC: Inverse of CPI
+Problem 2.
+  n: Instruction count
+  t: Execution time
+  MIPS = n / (t * 10^6)
+  t = 
+Problem 3.
+  a.
+  3GHz: 3*10^9 cycle/second
+  -> 1 second : 3*10^9 cycles <-- n
+  Instruction = Instruction / cycle * cycle = 1 / (Cycle / Instruction)
+* n = 1 / CPI * n
+  b.
+  Time used in polling the mouse in 1 secone ~ Execution time (t) in 1 second
+  t = Instruction count / IPC * Cycle time = 200 * 30 / (1 / CPI) * (1 / Clock
+rate)
+Problem 4.
+  a.
+  t1 = t2 (use formula for execution time)
+  => M2's clock rate
+  b.
+  Same clock rate, same number of instructions, same ISA -> Compare average(average
+weighed CPI) (equal runs of P1 and P2 -> 50% avgCPI(P1) + 50% avg(CPI(P2)))
+  c. M1 and M2 has the same x%avgCPI(M1) + (100-x)%avgCPI(M2) -> solve for x
+Problem 6.
+  Refer to MIPS formula
+Problem 7.
+  Use formula at https://en.wikipedia.org/wiki/Amdahl%27s_law, make a graph for
+p = 1% -> 25%
+Problem 8.
+  a. Again, use Amdahl's Law and calculate limit of S when s -> infinity(I hope
+you remember Calculus 1)
+  b. c. Just do some algebric manipulation to get the results
+Problem 9.
+  a. b. c. d. Reread textbook (1.9)
+Problem 10.
+  (I'm still working on this)
