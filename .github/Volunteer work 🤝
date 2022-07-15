@@ -1,0 +1,36 @@
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  🎉 Thanks for opening your first issue here! Be sure to follow the issue template! ✔
+  We will notify you as soon as possible 👩‍💻
+  You just need to wait a time while and check your email 💌
+  
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+  🎉 Thanks for opening this pull request! Please check out our contributing guidelines. ✔
+  We will notify you as soon as possible 👩‍💻
+  You just need to wait a time while and check your email 💌
+  
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  🎉 Congrats on merging your first pull request! We here at behaviorbot are proud of you! ✔
+  We will notify you as soon as possible 👩‍💻
+  You just need to wait a time while and check your email 💌
+[ImgBot] Optimize images  …
+*Total -- 1,121.17kb -> 626.85kb (44.09%)
+
+/Lab 2 - Pseudo MIPS Instruction/Sample picture Lab2_2.2.png -- 9.90kb -> 4.37kb (55.83%)
+/Lab 2 - Pseudo MIPS Instruction/Sample picture Lab2_2.3.png -- 10.59kb -> 4.96kb (53.17%)
+/Lab 2 - Pseudo MIPS Instruction/Sample picture Lab2_3.1.png -- 4.95kb -> 2.56kb (48.33%)
+/Lab 3 - Bitwise Logic and Procedure intro/Sample picture question 1.2.png -- 123.01kb -> 63.84kb (48.1%)
+/Lab 3 - Bitwise Logic and Procedure intro/Sample picture question 2.1.png -- 109.36kb -> 59.29kb (45.78%)
+/Lab 3 - Bitwise Logic and Procedure intro/Sample picture question 2.2.png -- 113.17kb -> 61.75kb (45.44%)
+/Lab 3 - Bitwise Logic and Procedure intro/Sample picture question 1.1.png -- 101.70kb -> 55.64kb (45.29%)
+/Lab 3 - Bitwise Logic and Procedure intro/Sample picture question 1.3.png -- 169.45kb -> 93.25kb (44.97%)
+/Lab 3 - Bitwise Logic and Procedure intro/Sample picture question 1.4.png -- 165.13kb -> 91.36kb (44.67%)
+/Lab 2 - Pseudo MIPS Instruction/Sample picture Lab2_ 2.1.png -- 3.14kb -> 1.87kb (40.54%)
+/Lab 2 - Pseudo MIPS Instruction/Sample picture Lab2_3.2.png -- 148.47kb -> 89.39kb (39.79%)
+/Lab 1- Hello MIPS/Screenshot 2021-03-12 204624.png -- 162.30kb -> 98.58kb (39.26%)
+
+Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+@ImgBotApp
+ImgBotApp committed on Sep 12, 2021
